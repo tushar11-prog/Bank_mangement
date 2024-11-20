@@ -1,0 +1,11 @@
+@RestController
+@RequestMapping("/api/dashboard")
+public class DashboardController {
+    @GetMapping
+    public Map<String, Object> getDashboardData() {
+        return Map.of(
+            "balance", 5000.00,
+            "transactions", new String[] { "Deposit $200", "Withdrawal $50", "Transfer $100" }
+        );
+    }
+}
