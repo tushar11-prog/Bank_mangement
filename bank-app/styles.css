@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  /* Bank name heading */
+.bank-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+  
+  .form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    margin-top: 10px;
+    text-align: center;
+  }
+  /* Dashboard Styles */
+.dashboard-container {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Balance Card */
+.balance-card {
+  background: #007bff;
+  color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.balance-card h2 {
+  font-size: 24px;
+}
+
+.balance-card p {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Transactions Section */
+.transactions-section {
+  margin-top: 20px;
+}
+
+.transactions-section table {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.transactions-section th,
+.transactions-section td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.transactions-section th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.transactions-section td {
+  font-size: 14px;
+}
+
+/* Quick Actions */
+.quick-actions {
+  margin-top: 20px;
+}
+
+.quick-actions button {
+  padding: 10px 15px;
+  margin: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.quick-actions button:hover {
+  background-color: #0056b3;
+}
+
+/* Logout Button */
+.logout-button {
+  margin-top: 30px;
+  padding: 10px 15px;
+  background: red;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: darkred;
+}
